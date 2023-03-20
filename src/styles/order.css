@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.column1,
+.column2,
+.column3 {
+
+    text-align: left;
+}
+
+body {
+
+    font-family: 'Lora', serif;
+}
+
+
+
+.column1 {
+    margin-top: 25%;
+    margin-left: 25%;
+}
+
+.ui.header{
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.ui.checkbox label {
+    color: #e1e2a0 !important;
+    font-size: 120%;
+}
+
+
+.price {
+    display: flex;
+    margin-left: auto;
+    color: #e1e2a0;
+    font-size: 16px;
+    margin-top: -2px;
+}
+
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 26% ;
+    margin: 0 5%;
+    background: url('./bg.jpg') center center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 100vh;
+    overflow: auto;
+}
+
+.item {
+    display: flex;
+}
